@@ -1,0 +1,72 @@
+name: Feature request
+description: Propose a new feature, enhancement, or improvement to a VTX Labs project.
+title: "[Feature]: "
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. The clearer the problem and proposed
+        outcome, the easier it is for us to evaluate and prioritize.
+
+        Please search [existing issues](https://github.com/search?q=org%3AVTX-Labs&type=issues)
+        first — your idea may already be under discussion.
+
+  - type: input
+    id: project
+    attributes:
+      label: Which project?
+      description: The VTX Labs repository this relates to. You may reference any repo in the org, or write "new project" if you're proposing a new one.
+      placeholder: "VTX-Labs/<repo-name>"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve? Describe the pain point and who it affects.
+      placeholder: "When I do X, there's no way to Y, so I have to work around it by Z."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like to happen? A rough API sketch, command, or UI description helps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches, workarounds, or existing tools you have evaluated.
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this to you?
+      options:
+        - Nice to have
+        - Would improve my workflow
+        - Blocking my use of the project
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Use cases, references, mockups, or links that support the request.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: This request describes a single, focused change.
+          required: true

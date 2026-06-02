@@ -1,0 +1,47 @@
+name: Documentation issue
+description: Report unclear, missing, incorrect, or outdated documentation.
+title: "[Docs]: "
+labels: ["documentation", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Good documentation is part of shipping. Tell us what was confusing or wrong.
+
+  - type: input
+    id: project
+    attributes:
+      label: Which project?
+      description: The VTX Labs repository whose documentation this concerns.
+      placeholder: "VTX-Labs/<repo-name>"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: A link to the page, file, or section (e.g. README, a docs URL, or a file path).
+      placeholder: "README.md → Installation, or https://..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of issue
+      options:
+        - Incorrect or misleading
+        - Missing / incomplete
+        - Outdated
+        - Unclear / confusing
+        - Typo or formatting
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What's wrong, and what would be better?
+      description: Describe the problem and, if you can, suggest the correction.
+    validations:
+      required: true
