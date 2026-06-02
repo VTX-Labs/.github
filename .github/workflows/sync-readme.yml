@@ -1,8 +1,8 @@
 name: Sync profile README to root
 
 # Keeps the repo's root README.md in sync with profile/README.md so the
-# organization profile (profile/README.md) and this repo's own page show the
-# same content. profile/README.md is the single source of truth — edit only it.
+# organization profile and this repo's own page show the same content.
+# profile/README.md is the single source of truth -- edit only it.
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
         run: |
           cp profile/README.md README.md
           if git diff --quiet -- README.md; then
-            echo "Root README already matches profile/README.md — nothing to do."
+            echo "Root README already matches profile/README.md; nothing to do."
             exit 0
           fi
           git config user.name "github-actions[bot]"
