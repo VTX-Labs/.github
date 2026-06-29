@@ -28,7 +28,6 @@
 <a href="https://vtxlabs.dev"><img src="https://img.shields.io/badge/Website-vtxlabs.dev-3182CE?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" /></a>
 <a href="https://github.com/VTX-Labs"><img src="https://img.shields.io/badge/GitHub-VTX--Labs-0d0d0e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://x.com/vtxlabs"><img src="https://img.shields.io/badge/Follow-@vtxlabs-0d0d0e?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-<a href="mailto:contact@vtxlabs.dev"><img src="https://img.shields.io/badge/Contact-Email-3182CE?style=for-the-badge&logo=maildotru&logoColor=white" alt="Contact" /></a>
 
 <br />
 
@@ -57,7 +56,6 @@ studio: VTX Labs
 focus: full-stack · AI · Web3 · security
 stack: TypeScript · Python
 ethos: ship fast, production-grade
-contact: contact@vtxlabs.dev
 ```
 
 </td>
@@ -214,8 +212,7 @@ contact: contact@vtxlabs.dev
 ## Work with us
 
 We partner with startups and teams to design, build, audit, and maintain
-software. To start a conversation, email
-**[contact@vtxlabs.dev](mailto:contact@vtxlabs.dev)** or visit
+software. To start a conversation visit
 **[vtxlabs.dev](https://vtxlabs.dev)**.
 
 <div align="center">
